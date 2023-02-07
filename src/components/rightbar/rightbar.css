@@ -5,6 +5,7 @@
 
 .rightbarWrapper{
     padding: 20px 20px 0 0;
+    margin-left: 10px;
 }
 .birthdayContainer{
     display: flex;align-items: center;
@@ -57,5 +58,45 @@
 }
 .rightbarUserName{
     font-weight: 500;
+}
+.rightBarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.rightBarfInfo{
+    margin-bottom: 30px;
+}
+.rightBarfInfoItem{
+    margin-bottom: 10px;
+}
 
+.rightBarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.rightBarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.rightBarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.rightBarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightBarfInfoValue{
+    font-weight: 300;
 }

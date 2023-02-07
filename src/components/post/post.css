@@ -53,6 +53,7 @@
 .likeIcon{
     width: 24px;
     height: 24px;
+    cursor: pointer;
 }
 .postLikeCounter{
     font-size: 15px;
